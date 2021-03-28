@@ -1,26 +1,4 @@
-# NodeJS Instagram private API client
 
-![logo](https://cloud.githubusercontent.com/assets/1809268/15931032/2792427e-2e56-11e6-831e-ffab238cc4a2.png)
-
-[![Telegram Chat](https://img.shields.io/badge/telegram-join%20chat-informational.svg)](https://t.me/igpapi)
-[![npm](https://img.shields.io/npm/dm/instagram-private-api.svg?maxAge=600)](https://www.npmjs.com/package/instagram-private-api)
-[![npm](https://img.shields.io/npm/l/instagram-private-api.svg?maxAge=600)](https://github.com/huttarichard/instagram-private-api/blob/master/LICENSE)
-[![Join the chat at https://gitter.im/instagram-private-api/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/instagram-private-api/Lobby)
-
----
-
-# Next major version
-
-Me and [Nerix](https://github.com/Nerixyz) are ready to announce the next 2.x.x version of this library.
-It has extended feature list.
-It's a big release.
-We have significantly expanded the functionality and capabilities.
-The library turned into a monorepository and now it's a set of libraries, connected in an ecosystem.
-It consists of
-
-- Android API
-- Web API
-- FBNS, Realtime
 
 We've done some work on design decisions.
 We simplified the state management process.
@@ -30,9 +8,6 @@ With new realtime features you can listen for new direct messages, notifications
 The new version is hosted in private repository. Access is paid.
 Members get **basic** support for installation, configuration, and usage.
 We also will try to react on your feature requests.
-
-You can contact me in [telegram](https://t.me/bowzee) or [email](mailto:dilame.bowzee@gmail.com) for details.
-
 # Table of Contents
 
 - [Install](#install)
@@ -70,7 +45,7 @@ BTC: 1Dqnz9QuswAvD3t7Jsw7LhwprR6HAWprW6
 
 # Examples
 
-You can find usage examples [here](examples)
+
 
 _Note for JavaScript users:_
 As of Node v.13.5.0, there isn't support for ESModules and the 'import'-syntax.
@@ -189,9 +164,7 @@ In the browser you have to set `localStorage.debug` to the desired namespace.
 
 # Contribution
 
-If you need features that is not implemented - feel free to implement and create PRs!
-
-Plus we need some documentation, so if you are good in it - you are welcome.
+If you need features that is not implemented - feel free to implement and c
 
 Setting up your environment is described [here](CONTRIBUTING.md).
 
@@ -199,10 +172,4 @@ Setting up your environment is described [here](CONTRIBUTING.md).
 
 [instagram-id-to-url-segment](https://www.npmjs.com/package/instagram-id-to-url-segment) - convert the image url fragment to the media ID
 
-## Special thanks
 
-- [Richard Hutta](https://github.com/huttarichard), original author of this library. Thanks to him for starting it.
-
-## Thanks to contributors
-
-- [Nerixyz](https://github.com/Nerixyz), for writing a huge amount of code for this library.
